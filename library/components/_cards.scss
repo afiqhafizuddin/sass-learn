@@ -1,0 +1,6 @@
+.card {
+  display: block;
+  padding: $base-padding;
+  border: $base-border-thickness solid #333;
+  box-shadow: &base-box-shadow;
+}
