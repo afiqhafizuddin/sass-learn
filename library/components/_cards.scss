@@ -2,5 +2,19 @@
   display: block;
   padding: $base-padding;
   border: $base-border-thickness solid #333;
-  box-shadow: &base-box-shadow;
+  box-shadow: $base-box-shadow;
+
+  .card-title {
+    font-size: $base-font-size;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+
+    a {
+      text-decoration: underline;
+    }
+  }
 }
